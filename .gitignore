@@ -1,2 +1,5 @@
 .DS_Store
 tolearn.txttask4_finetuned_model/
+train.csv
+test.csv
+project1.ipynb
