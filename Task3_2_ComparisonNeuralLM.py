@@ -11,7 +11,7 @@ from torch.utils.data import Dataset, DataLoader
 
 
 # -----------------------------
-# 1) Tokenizer（和你 n-gram 统一）
+# 1) Tokenizer
 # -----------------------------
 def tokenize(text: str) -> List[str]:
     text = (text or "").lower()
@@ -19,7 +19,7 @@ def tokenize(text: str) -> List[str]:
 
 
 # -----------------------------
-# 2) 读 CSV -> list[str]
+# 2) read CSV -> list[str]
 # -----------------------------
 def load_texts(csv_path: str, use_columns=("Title", "Description")) -> List[str]:
     df = pd.read_csv(csv_path)
@@ -33,9 +33,6 @@ def load_texts(csv_path: str, use_columns=("Title", "Description")) -> List[str]
     return text.tolist()
 
 
-# -----------------------------
-# 3) 词表
-# -----------------------------
 @dataclass
 class Vocab:
     # String to Index
@@ -46,10 +43,10 @@ class Vocab:
     # e.g. ["<pad>", "<s>", "</s>", "apple", ...]
     itos: list
 
-    # pad (<pad>): 填充位。用于将长度不一的句子补齐到相同长度，以便进行批处理。
+    # pad (<pad>): Padding space. Used to pad sentences of varying lengths to the same length for batch processing.
     pad: str = "<pad>"
 
-    # bos (<s>): 句子开始 (Beginning of Sentence)。告诉模型预测从此开始
+    # bos (<s>): Beginning of Sentence. Tells the model to start predictions from this point.
     bos: str = "<s>"
     eos: str = "</s>"
     unk: str = "<unk>"
@@ -89,8 +86,8 @@ def build_vocab(texts: List[str], min_freq: int = 1) -> Vocab:
 
 
 # -----------------------------
-# 4) 把整段文本变成“连续 token 流”
-#    然后做 next-token prediction
+# 4) Convert the entire text into a "continuous token stream"
+# Then perform next-token prediction
 # -----------------------------
 def texts_to_token_ids(texts: List[str], vocab: Vocab) -> List[int]:
     ids = []
@@ -102,27 +99,27 @@ def texts_to_token_ids(texts: List[str], vocab: Vocab) -> List[int]:
 
 class LMSequenceDataset(Dataset):
     """
-    给定一个 token id 序列 stream：
-    取长度 seq_len 的输入 x
-    预测后面一个 token 的序列 y（右移一位）
+    Given a sequence of token IDs, stream:
+    Take an input x of length seq_len
+    Predict the sequence y of the next token (shifted right by one position)
     """
     def __init__(self, token_ids: List[int], seq_len: int = 32):
         self.data = torch.tensor(token_ids, dtype=torch.long)
         self.seq_len = seq_len
 
     def __len__(self):
-        # 每个样本需要 seq_len+1 个 token（因为要做 next token）
+        # Each sample requires seq_len+1 tokens (because we need to generate the next token).
         return max(0, len(self.data) - (self.seq_len + 1))
 
     def __getitem__(self, idx):
         chunk = self.data[idx : idx + self.seq_len + 1]
-        x = chunk[:-1]   # 输入
-        y = chunk[1:]    # 目标（右移一位）
+        x = chunk[:-1]   # input
+        y = chunk[1:]    # Target (shift one position to the right)
         return x, y
 
 
 # -----------------------------
-# 5) 神经语言模型：Embedding + (GRU/LSTM) + Linear
+# 5) Neural Language Model: Embedding + (GRU/LSTM) + Linear
 # -----------------------------
 class NeuralLM(nn.Module):
     def __init__(self, vocab_size: int, emb_dim: int = 128, hidden_dim: int = 256,
@@ -144,7 +141,7 @@ class NeuralLM(nn.Module):
 
 
 # -----------------------------
-# 6) 训练 / 评估 perplexity / 生成
+# 6) Training / Evaluating perplexity / Generating
 # -----------------------------
 def train_neural_lm(
     train_ids: List[int],
@@ -161,7 +158,7 @@ def train_neural_lm(
 
     model = NeuralLM(vocab_size=vocab.size, rnn_type=rnn_type).to(device)
     opt = torch.optim.Adam(model.parameters(), lr=lr)
-    crit = nn.CrossEntropyLoss()  # 内含 softmax + NLL（数值更稳定）
+    crit = nn.CrossEntropyLoss()  # Includes softmax + NLL (for more stable values)
 
     t0 = time.perf_counter()
     model.train()
@@ -173,7 +170,7 @@ def train_neural_lm(
             y = y.to(device)  # [B, T]
             logits = model(x) # [B, T, V]
 
-            # CrossEntropyLoss 输入要求 [N, C] 和 [N]
+            # The CrossEntropyLoss input requires [N, C] and [N] respectively.
             loss = crit(logits.reshape(-1, vocab.size), y.reshape(-1))
 
             opt.zero_grad()
@@ -197,8 +194,9 @@ def perplexity_neural_lm(model: nn.Module, test_ids: List[int], vocab: Vocab,
                          seq_len: int = 32, batch_size: int = 64, device: str = "cpu") -> float:
     ds = LMSequenceDataset(test_ids, seq_len=seq_len)
     dl = DataLoader(ds, batch_size=batch_size, shuffle=False, drop_last=False)
-
-    crit = nn.CrossEntropyLoss(reduction="sum")  # 累加总loss方便算平均
+    
+    # Accumulated total loss makes it easier to calculate the average.
+    crit = nn.CrossEntropyLoss(reduction="sum") 
     model.eval()
 
     total_loss = 0.0
@@ -221,7 +219,7 @@ def generate_neural_lm(model: nn.Module, vocab: Vocab, max_tokens: int = 30,
                        temperature: float = 1.0, device: str = "cpu", seed: int = 0) -> str:
     torch.manual_seed(seed)
 
-    # 从 <s> 开始
+    # Start from <s>
     context = torch.tensor([[vocab.bos_id]], dtype=torch.long, device=device)
 
     out_tokens = []
@@ -240,7 +238,7 @@ def generate_neural_lm(model: nn.Module, vocab: Vocab, max_tokens: int = 30,
 
         out_tokens.append(vocab.itos[next_id])
 
-        # 把生成的 token append 到 context（不断增长）
+        # Append the generated token to the context (continuously increasing).
         context = torch.cat([context, torch.tensor([[next_id]], device=device)], dim=1)
 
     return " ".join(out_tokens)
@@ -248,8 +246,10 @@ def generate_neural_lm(model: nn.Module, vocab: Vocab, max_tokens: int = 30,
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-train_texts = load_texts("train.csv")
-test_texts  = load_texts("test.csv")
+# train_texts has 120k piece of data, even run the program overnight, I don't get result.
+# Therefore, I constraint the size to first 10k
+train_texts = load_texts("train.csv")[:10000] 
+test_texts  = load_texts("test.csv")[:10000]
 
 vocab = build_vocab(train_texts, min_freq=1)
 
@@ -260,7 +260,7 @@ model, train_time = train_neural_lm(
     train_ids, vocab,
     seq_len=32, batch_size=64,
     epochs=2, lr=2e-3,
-    rnn_type="gru",  # 或 "lstm"
+    rnn_type="gru",  # or "lstm"
     device=device
 )
 
