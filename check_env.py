@@ -1,3 +1,16 @@
+
+"""
+
+%pip install numpy scikit-learn matplotlib pandas wordcloud nltk
+%pip install transformers sentencepiece
+%pip install torch
+%pip install -U ipywidgets jupyter tqdm
+%pip install -U transformers datasets evaluate accelerate
+
+"""
+
+
+
 import torch
 import pandas as pd
 import sklearn
