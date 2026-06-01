@@ -1,0 +1,6 @@
+metric,value
+concepts_with_anon_level=entity_type,12
+concepts_with_anon_level=exact,23
+concepts_with_anon_level=parent,17
+total_concepts,52
+all_concepts_k_anonymous,True

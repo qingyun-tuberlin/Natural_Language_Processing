@@ -1,0 +1,53 @@
+canonical_id,canonical_name,parent_id,parent_name,entity_type,exact_count,parent_count,type_count,anon_id,anon_term,anon_level,equivalence_class_size,k,is_k_anonymous
+DIS_ALLERGY,allergy,DIS_IMMUNE,immune system disorder,Disease_disorder,8,8,453,ENTITY_TYPE::Disease_disorder,Disease_disorder,entity_type,453,15,True
+DIS_ANXIETY,anxiety disorder,DIS_MENTAL,mental disorder,Disease_disorder,7,7,453,ENTITY_TYPE::Disease_disorder,Disease_disorder,entity_type,453,15,True
+DIS_ATYPICAL_PNEUMONIA,atypical pneumonia,DIS_PNEUMONIA_GROUP,pneumonia,Disease_disorder,2,2,453,ENTITY_TYPE::Disease_disorder,Disease_disorder,entity_type,453,15,True
+DIS_CANCER,cancer,DIS_NEOPLASM,neoplastic disease,Disease_disorder,7,7,453,ENTITY_TYPE::Disease_disorder,Disease_disorder,entity_type,453,15,True
+DIS_HYPERTENSION,hypertension,DIS_CARDIO,cardiovascular disease,Disease_disorder,6,6,453,ENTITY_TYPE::Disease_disorder,Disease_disorder,entity_type,453,15,True
+MED_NSAID,NSAID,MED_ANTIINFLAMMATORY,anti-inflammatory medication,Medication,4,11,124,ENTITY_TYPE::Medication,Medication,entity_type,124,15,True
+MED_PREDNISONE,prednisone,MED_STEROID,steroid,Medication,2,2,124,ENTITY_TYPE::Medication,Medication,entity_type,124,15,True
+MED_STEROID,steroid,MED_ANTIINFLAMMATORY,anti-inflammatory medication,Medication,7,11,124,ENTITY_TYPE::Medication,Medication,entity_type,124,15,True
+TRT_FLU_VACCINE,influenza vaccine,TRT_VACCINE,vaccine,Treatment,3,5,22,ENTITY_TYPE::Treatment,Treatment,entity_type,22,15,True
+TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment,9,9,22,ENTITY_TYPE::Treatment,Treatment,entity_type,22,15,True
+TRT_PNEUMO_VACCINE,pneumococcal vaccine,TRT_VACCINE,vaccine,Treatment,2,5,22,ENTITY_TYPE::Treatment,Treatment,entity_type,22,15,True
+TRT_VACCINE,vaccine,TRT_PREVENTIVE,preventive treatment,Treatment,11,11,22,ENTITY_TYPE::Treatment,Treatment,entity_type,22,15,True
+DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,325,339,453,DIS_COVID19,COVID-19,exact,325,15,True
+DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder,15,161,453,DIS_ASTHMA,asthma,exact,15,15,True
+DIS_BRONCHITIS,bronchitis,DIS_RESP,respiratory disease,Disease_disorder,19,161,453,DIS_BRONCHITIS,bronchitis,exact,19,15,True
+DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,46,339,453,DIS_COMMON_COLD,common cold,exact,46,15,True
+DIS_DIABETES,diabetes mellitus,DIS_ENDOCRINE,endocrine disease,Disease_disorder,28,28,453,DIS_DIABETES,diabetes mellitus,exact,28,15,True
+DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,111,111,453,DIS_INFECTION,infection,exact,111,15,True
+DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,69,339,453,DIS_INFLUENZA,influenza,exact,69,15,True
+DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,127,161,453,DIS_PNEUMONIA,pneumonia,exact,127,15,True
+DIS_STREP_THROAT,streptococcal sore throat,DIS_RESP,respiratory disease,Disease_disorder,17,161,453,DIS_STREP_THROAT,streptococcal sore throat,exact,17,15,True
+MED_ACETAMINOPHEN,acetaminophen,MED_ANALGESIC,analgesic medication,Medication,29,29,124,MED_ACETAMINOPHEN,acetaminophen,exact,29,15,True
+MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,78,78,124,MED_ANTIBIOTIC,antibiotic,exact,78,15,True
+MED_IBUPROFEN,ibuprofen,MED_NSAID,NSAID,Medication,18,18,124,MED_IBUPROFEN,ibuprofen,exact,18,15,True
+SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,112,203,265,SYM_COUGH,cough,exact,112,15,True
+SYM_DIARRHEA,diarrhea,SYM_GI,gastrointestinal symptom,Sign_symptom,16,29,265,SYM_DIARRHEA,diarrhea,exact,16,15,True
+SYM_DRY_COUGH,dry cough,SYM_RESP,respiratory symptom,Sign_symptom,40,203,265,SYM_DRY_COUGH,dry cough,exact,40,15,True
+SYM_FATIGUE,fatigue,SYM_SYSTEMIC,systemic symptom,Sign_symptom,15,177,265,SYM_FATIGUE,fatigue,exact,15,15,True
+SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,167,177,265,SYM_FEVER,fever,exact,167,15,True
+SYM_HEADACHE,headache,SYM_NEURO,neurological symptom,Sign_symptom,52,59,265,SYM_HEADACHE,headache,exact,52,15,True
+SYM_MYALGIA,muscle aches,SYM_SYSTEMIC,systemic symptom,Sign_symptom,19,177,265,SYM_MYALGIA,muscle aches,exact,19,15,True
+SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom,19,203,265,SYM_RUNNY_NOSE,runny nose,exact,19,15,True
+SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom,69,203,265,SYM_DYSPNEA,shortness of breath,exact,69,15,True
+SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,64,203,265,SYM_SORE_THROAT,sore throat,exact,64,15,True
+SYM_SPUTUM,sputum,SYM_RESP,respiratory symptom,Sign_symptom,24,203,265,SYM_SPUTUM,sputum,exact,24,15,True
+DIS_SINUSITIS,sinusitis,DIS_RESP,respiratory disease,Disease_disorder,9,161,453,DIS_RESP,respiratory disease,parent,161,15,True
+MED_BACTRIM_DS,Bactrim DS,MED_ANTIBIOTIC,antibiotic,Medication,1,20,124,MED_ANTIBIOTIC,antibiotic,parent,20,15,True
+MED_AMOXICILLIN,amoxicillin,MED_ANTIBIOTIC,antibiotic,Medication,8,20,124,MED_ANTIBIOTIC,antibiotic,parent,20,15,True
+MED_AZITHRO,azithromycin,MED_ANTIBIOTIC,antibiotic,Medication,5,20,124,MED_ANTIBIOTIC,antibiotic,parent,20,15,True
+MED_CLINDA,clindamycin,MED_ANTIBIOTIC,antibiotic,Medication,1,20,124,MED_ANTIBIOTIC,antibiotic,parent,20,15,True
+MED_ERYTHRO,erythromycin,MED_ANTIBIOTIC,antibiotic,Medication,1,20,124,MED_ANTIBIOTIC,antibiotic,parent,20,15,True
+MED_LEVOFLOXACIN,levofloxacin,MED_ANTIBIOTIC,antibiotic,Medication,8,20,124,MED_ANTIBIOTIC,antibiotic,parent,20,15,True
+SYM_CHEST_PAIN,chest pain,SYM_RESP,respiratory symptom,Sign_symptom,14,203,265,SYM_RESP,respiratory symptom,parent,203,15,True
+SYM_CHEST_TIGHTNESS,chest tightness,SYM_RESP,respiratory symptom,Sign_symptom,8,203,265,SYM_RESP,respiratory symptom,parent,203,15,True
+SYM_CHILLS,chills,SYM_SYSTEMIC,systemic symptom,Sign_symptom,11,177,265,SYM_SYSTEMIC,systemic symptom,parent,177,15,True
+SYM_DIZZINESS,dizziness,SYM_NEURO,neurological symptom,Sign_symptom,9,59,265,SYM_NEURO,neurological symptom,parent,59,15,True
+SYM_NASAL_CONGESTION,nasal congestion,SYM_RESP,respiratory symptom,Sign_symptom,8,203,265,SYM_RESP,respiratory symptom,parent,203,15,True
+SYM_NAUSEA,nausea,SYM_GI,gastrointestinal symptom,Sign_symptom,8,29,265,SYM_GI,gastrointestinal symptom,parent,29,15,True
+SYM_SNEEZING,sneezing,SYM_RESP,respiratory symptom,Sign_symptom,10,203,265,SYM_RESP,respiratory symptom,parent,203,15,True
+SYM_VOMITING,vomiting,SYM_GI,gastrointestinal symptom,Sign_symptom,14,29,265,SYM_GI,gastrointestinal symptom,parent,29,15,True
+SYM_WEAKNESS,weakness,SYM_SYSTEMIC,systemic symptom,Sign_symptom,10,177,265,SYM_SYSTEMIC,systemic symptom,parent,177,15,True
+SYM_WHEEZE,wheezing,SYM_RESP,respiratory symptom,Sign_symptom,7,203,265,SYM_RESP,respiratory symptom,parent,203,15,True
