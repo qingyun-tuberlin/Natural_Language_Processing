@@ -1,0 +1,284 @@
+dialogue_id,split,utterance_index,speaker,start,end,original_term,canonical_id,canonical_name,parent_id,parent_name,entity_type,anon_id,anon_term,anon_level,equivalence_class_size,is_k_anonymous,k
+test_0,test,0,patient,40,45,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_0,test,0,patient,147,158,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_0,test,0,patient,159,168,klacid xl,MED_CLARITHRO,clarithromycin,MED_ANTIBIOTIC,antibiotic,Medication,,,,,,
+test_0,test,1,doctor,18,28,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_0,test,1,doctor,47,58,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_0,test,1,doctor,102,111,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_0,test,1,doctor,155,165,bronchitis,DIS_BRONCHITIS,bronchitis,DIS_RESP,respiratory disease,Disease_disorder,DIS_BRONCHITIS,bronchitis,exact,19.0,True,15.0
+test_0,test,1,doctor,169,178,sinusitis,DIS_SINUSITIS,sinusitis,DIS_RESP,respiratory disease,Disease_disorder,DIS_RESP,respiratory disease,parent,161.0,True,15.0
+test_0,test,1,doctor,213,223,infections,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_0,test,1,doctor,229,234,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_0,test,1,doctor,320,325,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_1,test,0,patient,85,97,corona virus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_1,test,1,doctor,101,106,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_2,test,0,patient,58,63,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_2,test,0,patient,73,79,chills,SYM_CHILLS,chills,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_SYSTEMIC,systemic symptom,parent,177.0,True,15.0
+test_2,test,0,patient,136,139,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_2,test,0,patient,173,184,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_2,test,1,doctor,18,23,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_2,test,1,doctor,28,32,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_2,test,1,doctor,316,325,ibuprofen,MED_IBUPROFEN,ibuprofen,MED_NSAID,NSAID,Medication,MED_IBUPROFEN,ibuprofen,exact,18.0,True,15.0
+test_2,test,1,doctor,332,338,nsaids,MED_NSAID,NSAID,MED_ANTIINFLAMMATORY,anti-inflammatory medication,Medication,ENTITY_TYPE::Medication,Medication,entity_type,124.0,True,15.0
+test_2,test,1,doctor,344,357,acetaminophen,MED_ACETAMINOPHEN,acetaminophen,MED_ANALGESIC,analgesic medication,Medication,MED_ACETAMINOPHEN,acetaminophen,exact,29.0,True,15.0
+test_2,test,1,doctor,359,366,tylenol,MED_ACETAMINOPHEN,acetaminophen,MED_ANALGESIC,analgesic medication,Medication,MED_ACETAMINOPHEN,acetaminophen,exact,29.0,True,15.0
+test_2,test,1,doctor,401,406,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_3,test,0,patient,47,56,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_3,test,0,patient,84,95,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_3,test,0,patient,270,275,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_4,test,0,patient,43,46,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_4,test,0,patient,155,158,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_4,test,0,patient,184,192,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_6,test,0,patient,112,117,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_6,test,0,patient,251,260,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_6,test,1,doctor,84,93,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_6,test,1,doctor,194,203,sinusitis,DIS_SINUSITIS,sinusitis,DIS_RESP,respiratory disease,Disease_disorder,DIS_RESP,respiratory disease,parent,161.0,True,15.0
+test_6,test,1,doctor,341,350,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_6,test,1,doctor,403,412,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_6,test,1,doctor,492,501,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_7,test,0,patient,143,151,headache,SYM_HEADACHE,headache,SYM_NEURO,neurological symptom,Sign_symptom,SYM_HEADACHE,headache,exact,52.0,True,15.0
+test_7,test,0,patient,187,195,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_7,test,1,doctor,39,50,common cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_7,test,1,doctor,96,101,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_7,test,1,doctor,102,113,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_7,test,1,doctor,127,132,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_8,test,0,patient,25,30,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_8,test,0,patient,104,109,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_8,test,1,doctor,61,66,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_8,test,1,doctor,76,81,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_8,test,1,doctor,98,107,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_9,test,0,patient,70,81,amoxicillin,MED_AMOXICILLIN,amoxicillin,MED_ANTIBIOTIC,antibiotic,Medication,MED_ANTIBIOTIC,antibiotic,parent,20.0,True,15.0
+test_9,test,0,patient,111,120,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_9,test,0,patient,195,207,corona virus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_9,test,1,doctor,79,89,high fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_10,test,0,patient,29,40,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_10,test,0,patient,171,182,stuffy nose,SYM_NASAL_CONGESTION,nasal congestion,SYM_RESP,respiratory symptom,Sign_symptom,SYM_RESP,respiratory symptom,parent,203.0,True,15.0
+test_10,test,1,doctor,53,60,allergy,DIS_ALLERGY,allergy,DIS_IMMUNE,immune system disorder,Disease_disorder,ENTITY_TYPE::Disease_disorder,Disease_disorder,entity_type,453.0,True,15.0
+test_10,test,1,doctor,71,75,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_11,test,0,patient,30,33,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_11,test,1,doctor,21,35,pneumonia shot,TRT_PNEUMO_VACCINE,pneumococcal vaccine,TRT_VACCINE,vaccine,Treatment,ENTITY_TYPE::Treatment,Treatment,entity_type,22.0,True,15.0
+test_11,test,1,doctor,437,448,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_12,test,0,patient,192,200,inhalers,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment,ENTITY_TYPE::Treatment,Treatment,entity_type,22.0,True,15.0
+test_13,test,0,patient,111,120,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_13,test,0,patient,141,150,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_13,test,1,doctor,126,135,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_13,test,1,doctor,187,196,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_14,test,0,patient,30,39,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_14,test,0,patient,143,153,runny nose,SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom,SYM_RUNNY_NOSE,runny nose,exact,19.0,True,15.0
+test_14,test,0,patient,258,268,runny nose,SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom,SYM_RUNNY_NOSE,runny nose,exact,19.0,True,15.0
+test_15,test,0,patient,133,141,headache,SYM_HEADACHE,headache,SYM_NEURO,neurological symptom,Sign_symptom,SYM_HEADACHE,headache,exact,52.0,True,15.0
+test_15,test,0,patient,184,192,headache,SYM_HEADACHE,headache,SYM_NEURO,neurological symptom,Sign_symptom,SYM_HEADACHE,headache,exact,52.0,True,15.0
+test_15,test,0,patient,295,300,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_15,test,0,patient,302,306,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_15,test,0,patient,473,480,anxiety,DIS_ANXIETY,anxiety disorder,DIS_MENTAL,mental disorder,Disease_disorder,ENTITY_TYPE::Disease_disorder,Disease_disorder,entity_type,453.0,True,15.0
+test_15,test,0,patient,682,687,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_15,test,0,patient,806,810,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_15,test,0,patient,864,873,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_15,test,0,patient,933,940,anxiety,DIS_ANXIETY,anxiety disorder,DIS_MENTAL,mental disorder,Disease_disorder,ENTITY_TYPE::Disease_disorder,Disease_disorder,entity_type,453.0,True,15.0
+test_15,test,0,patient,1043,1049,chills,SYM_CHILLS,chills,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_SYSTEMIC,systemic symptom,parent,177.0,True,15.0
+test_15,test,1,doctor,53,62,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_16,test,0,patient,45,56,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_17,test,0,patient,219,224,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_17,test,1,doctor,18,27,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_17,test,1,doctor,28,37,influenza,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_17,test,1,doctor,45,56,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_17,test,1,doctor,89,94,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_17,test,1,doctor,113,122,influenza,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_17,test,1,doctor,170,173,sob,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom,SYM_DYSPNEA,shortness of breath,exact,69.0,True,15.0
+test_17,test,1,doctor,350,361,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_18,test,0,patient,31,34,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_18,test,0,patient,108,113,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_18,test,0,patient,184,188,weak,SYM_WEAKNESS,weakness,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_SYSTEMIC,systemic symptom,parent,177.0,True,15.0
+test_18,test,0,patient,261,270,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_18,test,1,doctor,121,130,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_18,test,1,doctor,137,146,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_18,test,1,doctor,172,181,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_18,test,1,doctor,223,232,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_18,test,1,doctor,250,255,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_18,test,1,doctor,302,310,weakness,SYM_WEAKNESS,weakness,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_SYSTEMIC,systemic symptom,parent,177.0,True,15.0
+test_18,test,1,doctor,364,373,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_18,test,1,doctor,541,552,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_19,test,0,patient,35,43,steroids,MED_STEROID,steroid,MED_ANTIINFLAMMATORY,anti-inflammatory medication,Medication,ENTITY_TYPE::Medication,Medication,entity_type,124.0,True,15.0
+test_19,test,0,patient,48,54,asthma,DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder,DIS_ASTHMA,asthma,exact,15.0,True,15.0
+test_19,test,0,patient,97,104,covid19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_19,test,0,patient,124,132,inhalers,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment,ENTITY_TYPE::Treatment,Treatment,entity_type,22.0,True,15.0
+test_19,test,0,patient,144,152,steroids,MED_STEROID,steroid,MED_ANTIINFLAMMATORY,anti-inflammatory medication,Medication,ENTITY_TYPE::Medication,Medication,entity_type,124.0,True,15.0
+test_19,test,0,patient,181,187,asthma,DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder,DIS_ASTHMA,asthma,exact,15.0,True,15.0
+test_19,test,0,patient,242,248,asthma,DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder,DIS_ASTHMA,asthma,exact,15.0,True,15.0
+test_19,test,1,doctor,288,296,steroids,MED_STEROID,steroid,MED_ANTIINFLAMMATORY,anti-inflammatory medication,Medication,ENTITY_TYPE::Medication,Medication,entity_type,124.0,True,15.0
+test_19,test,1,doctor,374,382,steroids,MED_STEROID,steroid,MED_ANTIINFLAMMATORY,anti-inflammatory medication,Medication,ENTITY_TYPE::Medication,Medication,entity_type,124.0,True,15.0
+test_20,test,0,patient,46,53,inhaler,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment,ENTITY_TYPE::Treatment,Treatment,entity_type,22.0,True,15.0
+test_20,test,0,patient,104,109,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_20,test,0,patient,222,230,inhalers,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment,ENTITY_TYPE::Treatment,Treatment,entity_type,22.0,True,15.0
+test_20,test,1,doctor,36,44,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_20,test,1,doctor,191,197,asthma,DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder,DIS_ASTHMA,asthma,exact,15.0,True,15.0
+test_20,test,1,doctor,233,241,inhalers,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment,ENTITY_TYPE::Treatment,Treatment,entity_type,22.0,True,15.0
+test_20,test,1,doctor,276,283,inhaler,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment,ENTITY_TYPE::Treatment,Treatment,entity_type,22.0,True,15.0
+test_20,test,1,doctor,335,343,inhalers,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment,ENTITY_TYPE::Treatment,Treatment,entity_type,22.0,True,15.0
+test_21,test,0,patient,65,73,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_21,test,1,doctor,162,173,temperature,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_21,test,1,doctor,185,190,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_21,test,1,doctor,198,217,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom,SYM_DYSPNEA,shortness of breath,exact,69.0,True,15.0
+test_22,test,0,patient,23,31,diabetes,DIS_DIABETES,diabetes mellitus,DIS_ENDOCRINE,endocrine disease,Disease_disorder,DIS_DIABETES,diabetes mellitus,exact,28.0,True,15.0
+test_22,test,1,doctor,93,102,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_23,test,0,patient,102,114,corona virus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_23,test,1,doctor,54,66,corona virus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_24,test,0,patient,26,29,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_24,test,0,patient,50,55,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_24,test,0,patient,57,77,difficulty breathing,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom,SYM_DYSPNEA,shortness of breath,exact,69.0,True,15.0
+test_24,test,0,patient,162,167,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_24,test,1,doctor,8,13,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_24,test,1,doctor,39,42,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_24,test,1,doctor,57,62,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_24,test,1,doctor,123,132,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_24,test,1,doctor,167,172,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_24,test,1,doctor,235,243,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_25,test,0,patient,16,25,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_25,test,1,doctor,66,75,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_25,test,1,doctor,99,104,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_26,test,0,patient,16,21,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_26,test,0,patient,66,77,temperature,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_26,test,0,patient,107,112,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_27,test,0,patient,41,46,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_27,test,0,patient,51,54,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_27,test,0,patient,83,94,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_27,test,0,patient,134,139,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_27,test,1,doctor,62,65,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_27,test,1,doctor,94,107,acetaminophen,MED_ACETAMINOPHEN,acetaminophen,MED_ANALGESIC,analgesic medication,Medication,MED_ACETAMINOPHEN,acetaminophen,exact,29.0,True,15.0
+test_27,test,1,doctor,108,119,paracetamol,MED_ACETAMINOPHEN,acetaminophen,MED_ANALGESIC,analgesic medication,Medication,MED_ACETAMINOPHEN,acetaminophen,exact,29.0,True,15.0
+test_27,test,1,doctor,121,128,tylenol,MED_ACETAMINOPHEN,acetaminophen,MED_ANALGESIC,analgesic medication,Medication,MED_ACETAMINOPHEN,acetaminophen,exact,29.0,True,15.0
+test_27,test,1,doctor,138,143,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_27,test,1,doctor,148,159,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_27,test,1,doctor,317,336,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom,SYM_DYSPNEA,shortness of breath,exact,69.0,True,15.0
+test_28,test,0,patient,22,27,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_29,test,0,patient,43,51,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_30,test,0,patient,31,42,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_30,test,0,patient,57,68,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_30,test,1,doctor,84,95,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_31,test,0,patient,218,229,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_32,test,0,patient,24,28,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_32,test,0,patient,201,207,phlegm,SYM_SPUTUM,sputum,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SPUTUM,sputum,exact,24.0,True,15.0
+test_32,test,0,patient,217,228,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_32,test,1,doctor,242,254,corona virus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_33,test,1,doctor,18,25,covid19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_34,test,0,patient,37,45,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_35,test,0,patient,34,39,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_35,test,0,patient,62,71,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_35,test,1,doctor,92,102,high fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_36,test,0,patient,24,32,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_36,test,0,patient,41,61,difficulty breathing,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom,SYM_DYSPNEA,shortness of breath,exact,69.0,True,15.0
+test_36,test,0,patient,63,82,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom,SYM_DYSPNEA,shortness of breath,exact,69.0,True,15.0
+test_36,test,0,patient,105,116,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_36,test,0,patient,127,132,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_36,test,0,patient,214,222,diarrhea,SYM_DIARRHEA,diarrhea,SYM_GI,gastrointestinal symptom,Sign_symptom,SYM_DIARRHEA,diarrhea,exact,16.0,True,15.0
+test_36,test,1,doctor,35,43,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_36,test,1,doctor,150,153,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_36,test,1,doctor,182,194,strep throat,DIS_STREP_THROAT,streptococcal sore throat,DIS_RESP,respiratory disease,Disease_disorder,DIS_STREP_THROAT,streptococcal sore throat,exact,17.0,True,15.0
+test_36,test,1,doctor,195,204,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_36,test,1,doctor,208,212,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_36,test,1,doctor,216,225,influenza,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_36,test,1,doctor,257,265,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_36,test,1,doctor,369,377,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_37,test,0,patient,19,30,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_38,test,0,patient,13,21,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_39,test,0,patient,20,31,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_39,test,0,patient,36,55,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom,SYM_DYSPNEA,shortness of breath,exact,69.0,True,15.0
+test_39,test,0,patient,57,68,tight chest,SYM_CHEST_TIGHTNESS,chest tightness,SYM_RESP,respiratory symptom,Sign_symptom,SYM_RESP,respiratory symptom,parent,203.0,True,15.0
+test_39,test,0,patient,137,147,runny nose,SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom,SYM_RUNNY_NOSE,runny nose,exact,19.0,True,15.0
+test_39,test,0,patient,199,204,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_40,test,1,doctor,108,117,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_40,test,1,doctor,198,207,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_40,test,1,doctor,399,408,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_40,test,1,doctor,415,424,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_41,test,0,patient,18,23,dizzy,SYM_DIZZINESS,dizziness,SYM_NEURO,neurological symptom,Sign_symptom,SYM_NEURO,neurological symptom,parent,59.0,True,15.0
+test_41,test,0,patient,38,44,phlegm,SYM_SPUTUM,sputum,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SPUTUM,sputum,exact,24.0,True,15.0
+test_41,test,0,patient,68,73,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_41,test,1,doctor,85,93,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_41,test,1,doctor,221,229,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_41,test,1,doctor,350,361,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_42,test,0,patient,29,40,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_42,test,0,patient,42,47,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_42,test,0,patient,49,57,headache,SYM_HEADACHE,headache,SYM_NEURO,neurological symptom,Sign_symptom,SYM_HEADACHE,headache,exact,52.0,True,15.0
+test_42,test,0,patient,90,100,runny nose,SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom,SYM_RUNNY_NOSE,runny nose,exact,19.0,True,15.0
+test_42,test,0,patient,247,255,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_42,test,1,doctor,182,193,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_42,test,1,doctor,218,230,strep throat,DIS_STREP_THROAT,streptococcal sore throat,DIS_RESP,respiratory disease,Disease_disorder,DIS_STREP_THROAT,streptococcal sore throat,exact,17.0,True,15.0
+test_42,test,1,doctor,302,312,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_42,test,1,doctor,317,336,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom,SYM_DYSPNEA,shortness of breath,exact,69.0,True,15.0
+test_42,test,1,doctor,407,415,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_43,test,0,patient,23,28,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_43,test,1,doctor,14,22,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_44,test,1,doctor,438,447,ibuprofen,MED_IBUPROFEN,ibuprofen,MED_NSAID,NSAID,Medication,MED_IBUPROFEN,ibuprofen,exact,18.0,True,15.0
+test_45,test,0,patient,31,42,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_45,test,0,patient,181,192,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_45,test,1,doctor,38,49,throat pain,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_45,test,1,doctor,64,76,strep throat,DIS_STREP_THROAT,streptococcal sore throat,DIS_RESP,respiratory disease,Disease_disorder,DIS_STREP_THROAT,streptococcal sore throat,exact,17.0,True,15.0
+test_45,test,1,doctor,77,86,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_45,test,1,doctor,88,99,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_45,test,1,doctor,111,115,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_45,test,1,doctor,119,128,influenza,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_INFLUENZA,influenza,exact,69.0,True,15.0
+test_45,test,1,doctor,130,141,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_45,test,1,doctor,272,283,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_45,test,1,doctor,338,346,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_45,test,1,doctor,347,357,infections,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_45,test,1,doctor,371,376,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_45,test,1,doctor,406,411,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_45,test,1,doctor,425,436,throat pain,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_46,test,0,patient,97,108,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_46,test,1,doctor,142,147,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_47,test,0,patient,29,44,scratchy throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_47,test,0,patient,114,125,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_47,test,1,doctor,31,46,scratchy throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_47,test,1,doctor,176,187,common cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_47,test,1,doctor,226,231,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_47,test,1,doctor,287,297,high fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_47,test,1,doctor,306,314,headache,SYM_HEADACHE,headache,SYM_NEURO,neurological symptom,Sign_symptom,SYM_HEADACHE,headache,exact,52.0,True,15.0
+test_47,test,1,doctor,316,325,dry cough,SYM_DRY_COUGH,dry cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_DRY_COUGH,dry cough,exact,40.0,True,15.0
+test_47,test,1,doctor,330,341,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_47,test,1,doctor,389,394,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_48,test,0,patient,47,56,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_48,test,0,patient,108,115,inhaler,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment,ENTITY_TYPE::Treatment,Treatment,entity_type,22.0,True,15.0
+test_48,test,0,patient,169,178,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_48,test,0,patient,455,464,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_48,test,1,doctor,307,317,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_48,test,1,doctor,402,412,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_49,test,0,patient,127,137,body aches,SYM_MYALGIA,muscle aches,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_MYALGIA,muscle aches,exact,19.0,True,15.0
+test_49,test,1,doctor,39,48,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_49,test,1,doctor,157,168,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_51,test,0,patient,67,75,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_51,test,1,doctor,234,242,sneezing,SYM_SNEEZING,sneezing,SYM_RESP,respiratory symptom,Sign_symptom,SYM_RESP,respiratory symptom,parent,203.0,True,15.0
+test_52,test,1,doctor,133,142,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_52,test,1,doctor,151,160,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_52,test,1,doctor,254,263,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_52,test,1,doctor,337,346,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_53,test,0,patient,149,158,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_53,test,0,patient,199,203,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_53,test,1,doctor,133,142,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_53,test,1,doctor,183,188,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_53,test,1,doctor,327,338,temperature,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_54,test,1,doctor,119,128,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_55,test,0,patient,81,92,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_55,test,0,patient,192,197,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom,SYM_COUGH,cough,exact,112.0,True,15.0
+test_55,test,0,patient,245,255,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_55,test,0,patient,549,558,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_55,test,1,doctor,139,148,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_55,test,1,doctor,241,250,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder,DIS_PNEUMONIA,pneumonia,exact,127.0,True,15.0
+test_55,test,1,doctor,571,581,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_56,test,0,patient,109,114,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_56,test,0,patient,177,188,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom,SYM_SORE_THROAT,sore throat,exact,64.0,True,15.0
+test_56,test,0,patient,190,195,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom,SYM_FEVER,fever,exact,167.0,True,15.0
+test_56,test,1,doctor,90,98,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_56,test,1,doctor,235,244,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_57,test,0,patient,48,59,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_58,test,0,patient,13,22,sinusitis,DIS_SINUSITIS,sinusitis,DIS_RESP,respiratory disease,Disease_disorder,DIS_RESP,respiratory disease,parent,161.0,True,15.0
+test_58,test,1,doctor,63,75,strep throat,DIS_STREP_THROAT,streptococcal sore throat,DIS_RESP,respiratory disease,Disease_disorder,DIS_STREP_THROAT,streptococcal sore throat,exact,17.0,True,15.0
+test_58,test,1,doctor,76,85,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder,DIS_INFECTION,infection,exact,111.0,True,15.0
+test_58,test,1,doctor,87,98,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_58,test,1,doctor,114,118,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COMMON_COLD,common cold,exact,46.0,True,15.0
+test_58,test,1,doctor,135,146,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication,MED_ANTIBIOTIC,antibiotic,exact,78.0,True,15.0
+test_58,test,1,doctor,188,197,sinusitis,DIS_SINUSITIS,sinusitis,DIS_RESP,respiratory disease,Disease_disorder,DIS_RESP,respiratory disease,parent,161.0,True,15.0
+test_58,test,1,doctor,339,351,strep throat,DIS_STREP_THROAT,streptococcal sore throat,DIS_RESP,respiratory disease,Disease_disorder,DIS_STREP_THROAT,streptococcal sore throat,exact,17.0,True,15.0
+test_58,test,1,doctor,382,394,strep throat,DIS_STREP_THROAT,streptococcal sore throat,DIS_RESP,respiratory disease,Disease_disorder,DIS_STREP_THROAT,streptococcal sore throat,exact,17.0,True,15.0
+test_59,test,0,patient,19,27,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_59,test,1,doctor,18,26,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0
+test_60,test,0,patient,58,66,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder,DIS_COVID19,COVID-19,exact,325.0,True,15.0

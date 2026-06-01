@@ -1,0 +1,308 @@
+dialogue_id,split,utterance_index,speaker,start,end,original_term,canonical_id,canonical_name,parent_id,parent_name,entity_type
+validation_0,validation,0,patient,91,103,corona virus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_0,validation,0,patient,180,185,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_1,validation,0,patient,36,47,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_1,validation,0,patient,71,82,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_2,validation,0,patient,169,186,walking pneumonia,DIS_ATYPICAL_PNEUMONIA,atypical pneumonia,DIS_PNEUMONIA_GROUP,pneumonia,Disease_disorder
+validation_2,validation,0,patient,211,222,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication
+validation_2,validation,0,patient,224,229,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_2,validation,0,patient,237,244,allergy,DIS_ALLERGY,allergy,DIS_IMMUNE,immune system disorder,Disease_disorder
+validation_2,validation,0,patient,282,290,inhalers,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment
+validation_2,validation,0,patient,432,438,phlegm,SYM_SPUTUM,sputum,SYM_RESP,respiratory symptom,Sign_symptom
+validation_2,validation,1,doctor,8,25,walking pneumonia,DIS_ATYPICAL_PNEUMONIA,atypical pneumonia,DIS_PNEUMONIA_GROUP,pneumonia,Disease_disorder
+validation_2,validation,1,doctor,75,84,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_2,validation,1,doctor,116,125,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_2,validation,1,doctor,186,195,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_2,validation,1,doctor,257,266,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_2,validation,1,doctor,354,365,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication
+validation_2,validation,1,doctor,372,382,infections,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_3,validation,0,patient,43,50,fatigue,SYM_FATIGUE,fatigue,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_3,validation,0,patient,105,109,temp,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_3,validation,0,patient,149,153,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_4,validation,0,patient,36,45,dry cough,SYM_DRY_COUGH,dry cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_4,validation,0,patient,52,62,runny nose,SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom
+validation_4,validation,0,patient,195,206,temperature,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_4,validation,1,doctor,116,121,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_4,validation,1,doctor,129,139,runny nose,SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom
+validation_4,validation,1,doctor,278,283,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_4,validation,1,doctor,308,319,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_4,validation,1,doctor,377,387,infections,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_5,validation,0,patient,30,38,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_5,validation,0,patient,45,54,ibuprofen,MED_IBUPROFEN,ibuprofen,MED_NSAID,NSAID,Medication
+validation_5,validation,1,doctor,18,26,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_5,validation,1,doctor,223,232,ibuprofen,MED_IBUPROFEN,ibuprofen,MED_NSAID,NSAID,Medication
+validation_5,validation,1,doctor,251,259,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_5,validation,1,doctor,290,303,acetaminophen,MED_ACETAMINOPHEN,acetaminophen,MED_ANALGESIC,analgesic medication,Medication
+validation_6,validation,0,patient,40,51,tight chest,SYM_CHEST_TIGHTNESS,chest tightness,SYM_RESP,respiratory symptom,Sign_symptom
+validation_6,validation,0,patient,63,83,difficulty breathing,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_6,validation,1,doctor,54,65,temperature,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_6,validation,1,doctor,90,106,nasal congestion,SYM_NASAL_CONGESTION,nasal congestion,SYM_RESP,respiratory symptom,Sign_symptom
+validation_6,validation,1,doctor,160,168,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_6,validation,1,doctor,180,189,dry cough,SYM_DRY_COUGH,dry cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_6,validation,1,doctor,191,196,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_6,validation,1,doctor,209,228,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_6,validation,1,doctor,275,282,inhaler,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment
+validation_6,validation,1,doctor,360,369,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_7,validation,0,patient,192,197,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_7,validation,0,patient,223,228,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_7,validation,1,doctor,31,36,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_7,validation,1,doctor,65,80,sinus infection,DIS_SINUSITIS,sinusitis,DIS_RESP,respiratory disease,Disease_disorder
+validation_8,validation,0,patient,72,77,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_9,validation,0,patient,13,28,scratchy throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom
+validation_9,validation,0,patient,40,45,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_9,validation,0,patient,153,164,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom
+validation_9,validation,0,patient,166,182,nasal congestion,SYM_NASAL_CONGESTION,nasal congestion,SYM_RESP,respiratory symptom,Sign_symptom
+validation_9,validation,0,patient,195,204,headaches,SYM_HEADACHE,headache,SYM_NEURO,neurological symptom,Sign_symptom
+validation_9,validation,1,doctor,96,107,temperature,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_9,validation,1,doctor,137,140,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_9,validation,1,doctor,145,153,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_9,validation,1,doctor,164,180,nasal congestion,SYM_NASAL_CONGESTION,nasal congestion,SYM_RESP,respiratory symptom,Sign_symptom
+validation_9,validation,1,doctor,196,201,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_9,validation,1,doctor,236,241,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_10,validation,0,patient,70,78,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_10,validation,1,doctor,141,146,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_10,validation,1,doctor,265,274,dry cough,SYM_DRY_COUGH,dry cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_10,validation,1,doctor,279,298,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_11,validation,0,patient,28,33,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_11,validation,0,patient,43,52,dry cough,SYM_DRY_COUGH,dry cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_11,validation,1,doctor,46,57,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_11,validation,1,doctor,61,64,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_12,validation,0,patient,54,61,anxiety,DIS_ANXIETY,anxiety disorder,DIS_MENTAL,mental disorder,Disease_disorder
+validation_12,validation,0,patient,214,225,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_12,validation,0,patient,269,288,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_12,validation,0,patient,318,325,anxiety,DIS_ANXIETY,anxiety disorder,DIS_MENTAL,mental disorder,Disease_disorder
+validation_12,validation,0,patient,555,560,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_12,validation,0,patient,721,729,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_12,validation,1,doctor,15,22,anxiety,DIS_ANXIETY,anxiety disorder,DIS_MENTAL,mental disorder,Disease_disorder
+validation_12,validation,1,doctor,154,161,anxiety,DIS_ANXIETY,anxiety disorder,DIS_MENTAL,mental disorder,Disease_disorder
+validation_12,validation,1,doctor,205,210,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_12,validation,1,doctor,490,497,anxiety,DIS_ANXIETY,anxiety disorder,DIS_MENTAL,mental disorder,Disease_disorder
+validation_13,validation,0,patient,144,153,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_13,validation,0,patient,173,182,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_13,validation,0,patient,302,310,levaquin,MED_LEVOFLOXACIN,levofloxacin,MED_ANTIBIOTIC,antibiotic,Medication
+validation_13,validation,1,doctor,87,96,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_14,validation,0,patient,59,64,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,0,patient,180,185,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,0,patient,264,269,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,0,patient,300,310,runny nose,SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,0,patient,373,383,runny nose,SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,0,patient,795,800,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,0,patient,856,866,runny nose,SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,0,patient,1522,1531,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_14,validation,0,patient,1567,1573,asthma,DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder
+validation_14,validation,1,doctor,37,46,dry cough,SYM_DRY_COUGH,dry cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,1,doctor,153,158,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,1,doctor,357,362,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,1,doctor,371,377,asthma,DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder
+validation_14,validation,1,doctor,405,425,difficulty breathing,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,1,doctor,461,467,asthma,DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder
+validation_14,validation,1,doctor,633,638,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,1,doctor,681,686,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_14,validation,1,doctor,863,868,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_15,validation,1,doctor,39,51,corona virus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_15,validation,1,doctor,179,188,ibuprofen,MED_IBUPROFEN,ibuprofen,MED_NSAID,NSAID,Medication
+validation_16,validation,0,patient,60,69,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_16,validation,0,patient,99,104,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_16,validation,0,patient,147,157,chest pain,SYM_CHEST_PAIN,chest pain,SYM_RESP,respiratory symptom,Sign_symptom
+validation_16,validation,0,patient,304,313,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_16,validation,0,patient,336,341,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_16,validation,0,patient,439,444,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_16,validation,0,patient,602,610,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_16,validation,4,patient,139,144,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_16,validation,4,patient,175,180,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_16,validation,4,patient,231,236,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_16,validation,5,doctor,228,240,azithromycin,MED_AZITHRO,azithromycin,MED_ANTIBIOTIC,antibiotic,Medication
+validation_16,validation,5,doctor,288,293,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_16,validation,5,doctor,298,303,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_16,validation,6,patient,47,59,azithromycin,MED_AZITHRO,azithromycin,MED_ANTIBIOTIC,antibiotic,Medication
+validation_16,validation,6,patient,145,157,azithromycin,MED_AZITHRO,azithromycin,MED_ANTIBIOTIC,antibiotic,Medication
+validation_16,validation,7,doctor,78,90,azithromycin,MED_AZITHRO,azithromycin,MED_ANTIBIOTIC,antibiotic,Medication
+validation_17,validation,0,patient,46,55,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_17,validation,1,doctor,212,222,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication
+validation_17,validation,1,doctor,390,400,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication
+validation_18,validation,1,doctor,18,23,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_18,validation,1,doctor,86,94,vomiting,SYM_VOMITING,vomiting,SYM_GI,gastrointestinal symptom,Sign_symptom
+validation_19,validation,0,patient,142,153,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom
+validation_19,validation,0,patient,173,179,phlegm,SYM_SPUTUM,sputum,SYM_RESP,respiratory symptom,Sign_symptom
+validation_19,validation,0,patient,194,198,temp,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_19,validation,1,doctor,56,76,difficulty breathing,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_19,validation,1,doctor,134,142,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_19,validation,1,doctor,225,233,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_19,validation,1,doctor,245,254,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_20,validation,0,patient,16,31,scratchy throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom
+validation_20,validation,0,patient,33,39,phlegm,SYM_SPUTUM,sputum,SYM_RESP,respiratory symptom,Sign_symptom
+validation_20,validation,0,patient,59,66,fatigue,SYM_FATIGUE,fatigue,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_20,validation,0,patient,137,140,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_20,validation,1,doctor,106,117,temperature,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_20,validation,1,doctor,132,140,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_21,validation,0,patient,67,75,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_21,validation,1,doctor,126,131,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_21,validation,1,doctor,133,138,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_21,validation,1,doctor,142,161,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_22,validation,1,doctor,77,82,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_23,validation,1,doctor,146,155,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_24,validation,0,patient,35,40,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_24,validation,0,patient,48,56,vomiting,SYM_VOMITING,vomiting,SYM_GI,gastrointestinal symptom,Sign_symptom
+validation_24,validation,0,patient,107,118,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_24,validation,1,doctor,84,91,covid19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_24,validation,1,doctor,132,137,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_24,validation,1,doctor,192,197,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_24,validation,1,doctor,206,214,vomiting,SYM_VOMITING,vomiting,SYM_GI,gastrointestinal symptom,Sign_symptom
+validation_25,validation,0,patient,55,63,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_25,validation,1,doctor,194,214,difficulty breathing,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_27,validation,0,patient,31,39,diabetes,DIS_DIABETES,diabetes mellitus,DIS_ENDOCRINE,endocrine disease,Disease_disorder
+validation_27,validation,0,patient,85,96,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_27,validation,1,doctor,42,50,diabetes,DIS_DIABETES,diabetes mellitus,DIS_ENDOCRINE,endocrine disease,Disease_disorder
+validation_27,validation,1,doctor,113,123,infections,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_27,validation,1,doctor,144,155,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_28,validation,0,patient,74,80,asthma,DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder
+validation_28,validation,0,patient,85,95,bronchitis,DIS_BRONCHITIS,bronchitis,DIS_RESP,respiratory disease,Disease_disorder
+validation_28,validation,0,patient,112,120,steroids,MED_STEROID,steroid,MED_ANTIINFLAMMATORY,anti-inflammatory medication,Medication
+validation_28,validation,0,patient,230,237,fatigue,SYM_FATIGUE,fatigue,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_28,validation,0,patient,563,572,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_28,validation,0,patient,599,608,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_28,validation,0,patient,639,648,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_28,validation,1,doctor,36,45,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_29,validation,0,patient,102,111,headaches,SYM_HEADACHE,headache,SYM_NEURO,neurological symptom,Sign_symptom
+validation_29,validation,1,doctor,72,81,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_29,validation,1,doctor,88,97,influenza,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_29,validation,1,doctor,258,269,paracetamol,MED_ACETAMINOPHEN,acetaminophen,MED_ANALGESIC,analgesic medication,Medication
+validation_30,validation,0,patient,195,199,temp,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_30,validation,0,patient,242,254,corona virus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_32,validation,0,patient,58,62,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_32,validation,0,patient,150,159,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_32,validation,0,patient,193,197,temp,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_32,validation,0,patient,580,584,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_33,validation,0,patient,1470,1479,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_33,validation,1,doctor,109,118,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_34,validation,0,patient,25,31,phlegm,SYM_SPUTUM,sputum,SYM_RESP,respiratory symptom,Sign_symptom
+validation_34,validation,1,doctor,8,13,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_34,validation,1,doctor,14,20,phlegm,SYM_SPUTUM,sputum,SYM_RESP,respiratory symptom,Sign_symptom
+validation_34,validation,1,doctor,103,112,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_34,validation,1,doctor,126,132,sputum,SYM_SPUTUM,sputum,SYM_RESP,respiratory symptom,Sign_symptom
+validation_34,validation,1,doctor,153,163,bronchitis,DIS_BRONCHITIS,bronchitis,DIS_RESP,respiratory disease,Disease_disorder
+validation_34,validation,1,doctor,191,196,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_34,validation,1,doctor,197,203,chills,SYM_CHILLS,chills,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_34,validation,1,doctor,222,241,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_34,validation,1,doctor,245,253,wheezing,SYM_WHEEZE,wheezing,SYM_RESP,respiratory symptom,Sign_symptom
+validation_34,validation,1,doctor,303,313,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication
+validation_34,validation,1,doctor,353,360,covid19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_35,validation,0,patient,104,115,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication
+validation_35,validation,1,doctor,61,72,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication
+validation_36,validation,0,patient,36,41,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_36,validation,1,doctor,30,38,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_36,validation,1,doctor,39,48,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_37,validation,0,patient,68,73,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_37,validation,0,patient,229,239,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication
+validation_37,validation,0,patient,275,284,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_37,validation,0,patient,289,294,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_37,validation,1,doctor,104,113,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_37,validation,1,doctor,172,181,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_37,validation,1,doctor,185,194,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_37,validation,1,doctor,245,255,antibiotic,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication
+validation_37,validation,1,doctor,346,357,amoxicillin,MED_AMOXICILLIN,amoxicillin,MED_ANTIBIOTIC,antibiotic,Medication
+validation_37,validation,1,doctor,358,363,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_37,validation,1,doctor,380,391,amoxicillin,MED_AMOXICILLIN,amoxicillin,MED_ANTIBIOTIC,antibiotic,Medication
+validation_37,validation,1,doctor,431,442,amoxicillin,MED_AMOXICILLIN,amoxicillin,MED_ANTIBIOTIC,antibiotic,Medication
+validation_38,validation,0,patient,20,25,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_38,validation,1,doctor,17,20,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_38,validation,1,doctor,50,59,influenza,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_38,validation,1,doctor,120,128,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_38,validation,1,doctor,147,152,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_38,validation,1,doctor,166,171,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_38,validation,1,doctor,256,265,ibuprofen,MED_IBUPROFEN,ibuprofen,MED_NSAID,NSAID,Medication
+validation_39,validation,1,doctor,51,63,corona virus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_40,validation,0,patient,30,39,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_40,validation,0,patient,73,84,antibiotics,MED_ANTIBIOTIC,antibiotic,MED_ANTIINFECTIVE,anti-infective medication,Medication
+validation_40,validation,0,patient,89,94,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_40,validation,0,patient,122,127,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_40,validation,0,patient,146,165,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_40,validation,0,patient,170,178,wheezing,SYM_WHEEZE,wheezing,SYM_RESP,respiratory symptom,Sign_symptom
+validation_40,validation,0,patient,190,197,inhaler,TRT_INHALER,inhaler,TRT_RESP_SUPPORT,respiratory treatment,Treatment
+validation_40,validation,0,patient,325,330,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_40,validation,0,patient,353,358,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_40,validation,1,doctor,73,78,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_41,validation,1,doctor,223,232,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_42,validation,0,patient,74,82,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_42,validation,1,doctor,8,13,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_42,validation,1,doctor,46,54,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_42,validation,1,doctor,94,99,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_42,validation,1,doctor,133,141,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_43,validation,0,patient,24,35,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_43,validation,1,doctor,140,145,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_43,validation,1,doctor,156,167,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom
+validation_43,validation,1,doctor,171,176,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_44,validation,0,patient,61,70,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_44,validation,0,patient,388,397,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_44,validation,0,patient,456,461,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_44,validation,0,patient,484,493,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_44,validation,1,doctor,189,198,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_45,validation,0,patient,87,92,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_45,validation,0,patient,114,119,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_45,validation,0,patient,231,238,covid19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_46,validation,0,patient,151,166,sinus infection,DIS_SINUSITIS,sinusitis,DIS_RESP,respiratory disease,Disease_disorder
+validation_46,validation,0,patient,207,216,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_46,validation,0,patient,309,317,steroids,MED_STEROID,steroid,MED_ANTIINFLAMMATORY,anti-inflammatory medication,Medication
+validation_46,validation,0,patient,462,471,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_47,validation,0,patient,68,73,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_47,validation,0,patient,75,83,sneezing,SYM_SNEEZING,sneezing,SYM_RESP,respiratory symptom,Sign_symptom
+validation_47,validation,0,patient,85,95,runny nose,SYM_RUNNY_NOSE,runny nose,SYM_RESP,respiratory symptom,Sign_symptom
+validation_47,validation,0,patient,100,105,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_47,validation,1,doctor,70,78,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_47,validation,1,doctor,94,113,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_47,validation,1,doctor,226,229,flu,DIS_INFLUENZA,influenza,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_47,validation,1,doctor,293,297,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_48,validation,0,patient,27,38,tight chest,SYM_CHEST_TIGHTNESS,chest tightness,SYM_RESP,respiratory symptom,Sign_symptom
+validation_48,validation,0,patient,46,51,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_48,validation,0,patient,78,83,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_48,validation,0,patient,101,106,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_48,validation,0,patient,149,154,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_48,validation,0,patient,177,182,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_48,validation,1,doctor,27,33,asthma,DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder
+validation_48,validation,1,doctor,52,58,asthma,DIS_ASTHMA,asthma,DIS_RESP,respiratory disease,Disease_disorder
+validation_48,validation,1,doctor,62,70,wheezing,SYM_WHEEZE,wheezing,SYM_RESP,respiratory symptom,Sign_symptom
+validation_48,validation,1,doctor,99,118,shortness of breath,SYM_DYSPNEA,shortness of breath,SYM_RESP,respiratory symptom,Sign_symptom
+validation_48,validation,1,doctor,159,164,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_48,validation,1,doctor,167,172,cough,SYM_COUGH,cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_48,validation,1,doctor,174,179,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_49,validation,1,doctor,177,189,corona virus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_50,validation,0,patient,80,88,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_50,validation,0,patient,153,162,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_51,validation,0,patient,169,173,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_51,validation,1,doctor,8,16,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_51,validation,1,doctor,114,122,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_51,validation,1,doctor,137,148,coronavirus,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_51,validation,1,doctor,149,158,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_51,validation,1,doctor,160,176,nasal congestion,SYM_NASAL_CONGESTION,nasal congestion,SYM_RESP,respiratory symptom,Sign_symptom
+validation_51,validation,1,doctor,235,243,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_53,validation,0,patient,56,65,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_53,validation,1,doctor,239,246,anxiety,DIS_ANXIETY,anxiety disorder,DIS_MENTAL,mental disorder,Disease_disorder
+validation_54,validation,0,patient,18,27,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_55,validation,0,patient,111,120,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_55,validation,0,patient,178,190,azithromycin,MED_AZITHRO,azithromycin,MED_ANTIBIOTIC,antibiotic,Medication
+validation_55,validation,0,patient,211,220,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_55,validation,1,doctor,121,130,infection,DIS_INFECTION,infection,DIS_INFECTIOUS,infectious disease,Disease_disorder
+validation_55,validation,1,doctor,185,194,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_55,validation,1,doctor,198,207,pneumonia,DIS_PNEUMONIA,pneumonia,DIS_RESP,respiratory disease,Disease_disorder
+validation_56,validation,0,patient,18,29,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom
+validation_56,validation,0,patient,173,178,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_56,validation,1,doctor,79,90,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom
+validation_56,validation,1,doctor,96,101,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_56,validation,1,doctor,102,110,headache,SYM_HEADACHE,headache,SYM_NEURO,neurological symptom,Sign_symptom
+validation_56,validation,1,doctor,111,120,dry cough,SYM_DRY_COUGH,dry cough,SYM_RESP,respiratory symptom,Sign_symptom
+validation_56,validation,1,doctor,172,183,paracetamol,MED_ACETAMINOPHEN,acetaminophen,MED_ANALGESIC,analgesic medication,Medication
+validation_56,validation,1,doctor,240,245,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_57,validation,0,patient,45,50,covid,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_57,validation,1,doctor,106,114,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_57,validation,1,doctor,397,405,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_57,validation,1,doctor,406,414,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_58,validation,0,patient,14,22,sneezing,SYM_SNEEZING,sneezing,SYM_RESP,respiratory symptom,Sign_symptom
+validation_58,validation,0,patient,25,36,stuffy nose,SYM_NASAL_CONGESTION,nasal congestion,SYM_RESP,respiratory symptom,Sign_symptom
+validation_58,validation,0,patient,48,59,sore throat,SYM_SORE_THROAT,sore throat,SYM_RESP,respiratory symptom,Sign_symptom
+validation_58,validation,0,patient,89,100,temperature,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_58,validation,0,patient,126,136,high fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
+validation_58,validation,1,doctor,15,19,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_58,validation,1,doctor,48,52,cold,DIS_COMMON_COLD,common cold,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_58,validation,1,doctor,148,156,covid-19,DIS_COVID19,COVID-19,DIS_VIRAL_RESP,viral respiratory infection,Disease_disorder
+validation_58,validation,1,doctor,392,401,ibuprofen,MED_IBUPROFEN,ibuprofen,MED_NSAID,NSAID,Medication
+validation_58,validation,1,doctor,415,420,fever,SYM_FEVER,fever,SYM_SYSTEMIC,systemic symptom,Sign_symptom
